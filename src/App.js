@@ -13,7 +13,7 @@ const Layout = lazy(() => import('./containers/Layout'))
 
 const provider = new ethers.providers.JsonRpcProvider("https://bsc-dataseed1.defibit.io/")
 
-const apiKey = '7ZZ4WKZZIB8B71XYFV8Z1I1WD7B44GZCUJ'
+const apiKey = 'JJRNQ22J9TYQJ6931GB8PHRHNIMX3YZ8X'
 
 let timer
 
@@ -33,7 +33,7 @@ const busd = {
   decimals: 18,
 }
 
-const reinvestContractAddress = '0x2FD8385d94853E40FAe5E94b4E5033a836E71776'
+//const reinvestContractAddress = '0x2FD8385d94853E40FAe5E94b4E5033a836E71776'
 
 async function getChunksAndMergeThenReturnHighest(chunks, currBlock, hoursPerChunk) {
   let chunkData = []
